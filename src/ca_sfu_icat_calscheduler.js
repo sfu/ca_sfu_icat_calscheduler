@@ -35,7 +35,7 @@ ca_sfu_icat_calscheduler.prototype.singleClicked = function () {
 		},
 		override_tab_handler : true,
 		wrap_html: true,
-        html: '<p>The Calendar Scheduler has been moved to the appointment menu, now with more features. Create or edit an appointment, add attendees, and the Calendar Scheduler will automatically appear.</p><p><a href="#">Learn more about the new Calendar Scheduler</a></p><p>Click <strong>Create New Appointment</strong> button to start creating a new calendar appointment.</p><p><input type="checkbox" id="calsched_dontshowagain" name="calsched_dontshowagain" />Don&apos;t show this message again</p>'
+        html: '<p>The Calendar Scheduler has been moved to the appointment menu, now with more features. Create or edit an appointment, add attendees, and the Calendar Scheduler will automatically appear.</p><p><a href="#">Learn more about the new Calendar Scheduler</a></p><p>Click the <strong>Create New Appointment</strong> button to start creating a new calendar appointment.</p>'
 	});
 };
 
