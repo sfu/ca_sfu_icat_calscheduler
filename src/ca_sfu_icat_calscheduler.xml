@@ -1,7 +1,6 @@
 <zimlet name="ca_sfu_icat_calscheduler" version="1.0" description="Temporary replacement for the Zimbra-supplied calendar scheduler zimlet" label="Calendar Scheduler">
 
 	<include>ca_sfu_icat_calscheduler.js</include>
-	<includeCSS>ca_sfu_icat_calscheduler.css</includeCSS>
 	<resource>sfu_logo.gif</resource>
 	<handlerObject>ca_sfu_icat_calscheduler</handlerObject>
 
