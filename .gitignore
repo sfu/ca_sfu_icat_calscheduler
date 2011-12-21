@@ -1,0 +1,5 @@
+tools
+dist/*
+build/*
+.DS_Store
+.zip
