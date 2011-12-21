@@ -18,14 +18,15 @@ ca_sfu_icat_calscheduler.prototype.init = function() {
 };
 
 ca_sfu_icat_calscheduler.prototype.singleClicked = function () {
-
-	// do something when the zimlet icon is single-clicked
-
+    this.displayZimletDialog({
+        
+    });
 };
 
 ca_sfu_icat_calscheduler.prototype.doubleClicked = function () {
-
-	// do something when the zimlet icon is double-clicked
+    this.singleClicked();
 };
 
-
+ca_sfu_icat_calscheduler.prototype.openApptComposeTab = function() {
+     AjxDispatcher.run("GetCalController").newAppointment(null, null, null, null);
+};
