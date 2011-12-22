@@ -12,9 +12,7 @@ ca_sfu_icat_calscheduler.prototype = new ZmZimletBase();
 ca_sfu_icat_calscheduler.prototype.constructor = ca_sfu_icat_calscheduler;
 
 ca_sfu_icat_calscheduler.prototype.init = function() {
-
 	this.logLoadingZimlet();
-
 };
 
 ca_sfu_icat_calscheduler.prototype.singleClicked = function () {
