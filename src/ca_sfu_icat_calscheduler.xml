@@ -1,12 +1,6 @@
 <zimlet name="ca_sfu_icat_calscheduler" version="1.0" description="Temporary replacement for the Zimbra-supplied calendar scheduler zimlet" label="Calendar Scheduler">
-
 	<include>ca_sfu_icat_calscheduler.js</include>
 	<resource>sfu_logo.gif</resource>
 	<handlerObject>ca_sfu_icat_calscheduler</handlerObject>
-
-	<zimletPanelItem label="Calendar Scheduler">
-        <!-- <dragSource type="ZmMailMsg" />
-        <dragSource type="ZmConv" /> -->
-	</zimletPanelItem>
-
+	<zimletPanelItem label="Calendar Scheduler"></zimletPanelItem>
 </zimlet>
