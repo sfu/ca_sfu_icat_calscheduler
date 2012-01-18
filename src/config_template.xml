@@ -1,4 +1,4 @@
-<zimletConfig name="ca_sfu_icat_calscheduler" version="1.0">
+<zimletConfig name="ca_sfu_icat_calscheduler" version="1.0.1">
   <global>
     <property name="allowedDomains">*.sfu.ca</property>
     <property name="gitCommit">@gitcommit@</property>
